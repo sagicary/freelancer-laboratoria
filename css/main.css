@@ -56,9 +56,6 @@ a:hover{
 	padding-top: 180px;
 }
 
-.normal{
-	font-size: 16px;
-}
 .linea{
 	padding: 0;
     border: none;
@@ -76,4 +73,19 @@ a:hover{
 h2{
 	font-weight: 400;
 	padding-top: 20px;
+}
+.portafolio{
+	height: 700px;
+	padding: 75px;
+	font-size: 35px;
+	color: gray;
+}
+.linea2{
+	padding: 0;
+    border: none;
+    border-top: 5px solid black;
+    text-align: center;
+    display: inline-block;
+    width: 110px;
+    padding-bottom: 7px;
 }
