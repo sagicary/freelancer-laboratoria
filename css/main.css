@@ -5,17 +5,17 @@
 
 .menu{
 	background-color: #2C3E50; 
-	height: 70px;
+	height: 100px;
 }
 nav{
 	position: fixed;
 }
 .izq{
 	color: white;
-	font-size: 20px;
+	font-size: 26px;
 	position:relative;
 	left: 60px;
-	top: 10px;
+	top: 20px;
 	display: inline-block;
 	
 }
@@ -25,6 +25,7 @@ nav{
 	width: 50%;
 	float: right;
 	margin-right: 10px;
+	padding-top:10px;
 }
 ul{
 	list-style: none;
