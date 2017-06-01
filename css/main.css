@@ -17,9 +17,7 @@ nav{
 	left: 60px;
 	top: 20px;
 	display: inline-block;
-	
 }
-
 .der{
 	font-size: 14px;
 	width: 50%;
@@ -47,4 +45,31 @@ ul li a{
 }
 a:hover{
 	color: #18bc9c;
+}
+
+/*Start*/
+.start{
+	background-color: #18bc9c;
+	height: 700px;
+}
+.imgcentro{
+	padding-top: 180px;
+}
+
+.normal{
+	font-size: 16px;
+}
+.linea{
+	padding: 0;
+    border: none;
+    border-top: 5px solid white;
+    text-align: center;
+    display: inline-block;
+    width: 110px;
+    padding-bottom: 7px;
+}
+.fa-star{
+	background-color: #18BC9C;
+	color: white;
+	font-size: 28px;
 }

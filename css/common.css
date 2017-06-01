@@ -10,3 +10,15 @@
  .negrita{
  	font-weight: bold;
  }
+ .medio{
+	text-align: center;
+}
+.blanco{
+	color: white;
+}
+.negro{
+	color: black;
+}
+.gigante{
+	font-size: 70px;
+}
