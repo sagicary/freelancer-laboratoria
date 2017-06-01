@@ -1,3 +1,49 @@
 /*
  * Estilos de tu proyecto
  */
+/*MENU*/
+
+.menu{
+	background-color: #2C3E50; 
+	height: 70px;
+}
+nav{
+	position: fixed;
+}
+.izq{
+	color: white;
+	font-size: 20px;
+	position:relative;
+	left: 60px;
+	top: 10px;
+	display: inline-block;
+	
+}
+
+.der{
+	font-size: 14px;
+	width: 50%;
+	float: right;
+	margin-right: 10px;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 15px;
+	overflow: hidden;
+	position: relative;
+	float: right;
+	right: 30px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	color: white;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+}
+a:hover{
+	color: #18bc9c;
+}
