@@ -116,7 +116,6 @@ h2{
 .about{
 	height: 500px;
 	padding:50px;
-	margin-bottom: 150px;
 	background-color: #18bc9c;
 	padding-left: 200px;
 	padding-right: 200px;
@@ -144,4 +143,96 @@ a{
 }
 .btnarea{
 	margin-top: 20px;
+}
+
+/*Contacto*/
+.contacto{
+	height: 700px;
+	font-size: 35px;
+	padding: 50px;
+}
+.input{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid #gray;
+    font-size: 20px;
+    width: 90%;
+    height: 80px;
+    color: #75726C;
+    padding-top: 20px;
+}
+textarea{
+	border: none;
+}
+.input:focus{
+	outline: 0px;
+}
+.form{
+	padding-left: 150px;
+	padding-right: 150px;
+	border-top: 5px solid #gray;
+	border-bottom: 5px solid #gray;
+}
+.envio{
+	color: #fff;
+    background-color: #18BC9C;
+    border-color: #18BC9C;
+    font-weight: 700;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    text-align: left;
+    margin-left: 200px;
+}
+.envio:hover{
+	outline: 0px;
+	background-color: #255625;
+	border-color: #255625;
+	cursor: pointer;
+}
+/*Redes*/
+.redes{
+	background-color: #2C3E50;
+	height: 300px;
+	padding: 50px;
+}
+.letraredes{
+	font-size: 26px;
+	font-weight: bolder;
+	padding-bottom: 30px;
+}
+.le{
+	font-size: 18px;
+}
+.verde{
+	color: #18bc9c;
+}
+.fa-fw{
+	border: 2px solid white;
+	padding: 10px;
+	font-size: 20px;
+	width: 45px;
+	border-radius: 50%;
+	display: inline-block;
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+}
+.fa-fw:hover{
+	background-color: white;
+	color: #18bc9c;
+}
+/*Footer*/
+.footer{
+	background-color: #233140;
+	height: 70px;
+}
+.chica{
+	font-size: 12px;
+	padding: 15px;
 }
