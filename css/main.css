@@ -70,22 +70,78 @@ a:hover{
 	color: white;
 	font-size: 28px;
 }
+
+/*Portafolio*/
 h2{
 	font-weight: 400;
 	padding-top: 20px;
 }
 .portafolio{
 	height: 700px;
-	padding: 75px;
 	font-size: 35px;
 	color: gray;
+	padding:50px;
+	margin-bottom: 150px;
 }
 .linea2{
 	padding: 0;
     border: none;
-    border-top: 5px solid black;
-    text-align: center;
+    border-top: 5px solid #2C3E50;
     display: inline-block;
     width: 110px;
     padding-bottom: 7px;
+}
+.fa-star2{
+	background-color: white;
+	color: #2C3E50;
+	font-size: 28px;
+}
+.fblanco{
+	background-color: white;
+}
+.azul{
+	color: #2C3E50;
+}
+.nn{
+	color: #333333;
+}
+.tres{
+	width: 30%;
+}
+.search:hover{
+	cursor: pointer;
+}
+
+/*About*/
+.about{
+	height: 500px;
+	padding:50px;
+	margin-bottom: 150px;
+	background-color: #18bc9c;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.letra{
+	font-size: 35px;
+	font-weight: 400;
+}
+.btn{
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+a{
+	text-decoration: none;
+}
+.btn:hover{
+	color: #18bc9c;
+	background-color: white;
+}
+.btnarea{
+	margin-top: 20px;
 }
